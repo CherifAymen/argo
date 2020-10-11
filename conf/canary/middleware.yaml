@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: middleware
-        image: aymencherif/analyseur-sentiment-middleware-go:latest     
+        image: aymencherif/analyseur-sentiment-middleware-go:1.0.0     
         env:                                                            
         - name:  URL                                                    
           value:  "http://model"                                        
